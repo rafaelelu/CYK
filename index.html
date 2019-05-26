@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CYK</title>
+    <link rel="icon" href="cykTab.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-title">
+        <h1>CYK</h1>
+    </div>
+    <div class="grammarContainer">
+        <div class="half-left">
+            <h2>Paso 1</h2>
+            <p>Favor de ingresar la gramática de la siguiente manera:<br>
+                En el primer recuadro escribir el generador y en el segundo el producto.
+            </p>
+            <input type="text" id="generator" placeholder="S">
+            <input type="text" id="product" placeholder="AB">
+            <input type="button" class="button" id = "bAddProduction" value="Agregar producción">
+        </div>
+        <div>
+            <h2>Gramática:</h2>
+            <p id="grammar"></p>
+            <input type="button" class="button" id = "bResetGrammar" value="Borrar gramática">
+        </div>
+    </div>
+    <div class="resultContainer">
+        <div class="half-left">
+            <h2>Paso 2</h2>
+            <input type="text" id="word" placeholder="ab">
+            <input type="button" class="button" id = "bTestIfValid" value="Probar palabra">
+        </div>
+        <div>
+            <img id="img"src="transparent.png" alt="result" style="height:200px">
+        </div>
+    </div>
+    <script src="CNFGrammarLib.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+.half-left {
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding: 0% 10% 0% 0%;
+}
+
+.main-title {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+
+}
+
+.button {
+    background-color: rgb(107, 106, 141);
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgba(34, 33, 66, 0.432);
+}
+
+.grammarContainer, .resultContainer{
+    padding: 5% 10% 5% 10%;
+    border-style: solid;
+}
+
+.grammarContainer{
+    background-image: linear-gradient(to right, transparent 0%, white 60%);
+}
+
+.resultContainer{
+    background-image: linear-gradient(to left, transparent 0%, white 70%);
+}
+
+body{
+    background-image: url("words.jpg");
+}
+
+.img{
+    height: 50px;
+    width: 50px;
+}
+
+
